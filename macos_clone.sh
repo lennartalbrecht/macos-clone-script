@@ -1,13 +1,13 @@
 #!/bin/bash
 
-# Usage: ./clone_with_gitignore_commit_push.sh https://github.com/username/repository.git
+# Usage: ./macos_clone.sh https://github.com/username/repository.git
 
 REPO_URL="$1"
 
 # Check if a URL was provided
 if [ -z "$REPO_URL" ]; then
   echo "❌ Error: Please provide a GitHub repository URL."
-  echo "Example: ./clone_with_gitignore_commit_push.sh https://github.com/username/repo.git"
+  echo "Example: ./macos_clone.sh https://github.com/username/repo.git"
   exit 1
 fi
 
